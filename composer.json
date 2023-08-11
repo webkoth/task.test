@@ -1,0 +1,21 @@
+{
+    "name": "webkoth/task-test",
+    "description": "Test task for job",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Minas Sarkisyan",
+            "email": "webkoth@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "php-amqplib/php-amqplib": "^3.0"
+    }
+}

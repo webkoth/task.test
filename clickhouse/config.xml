@@ -1,0 +1,14 @@
+<yandex>
+    <path>/var/lib/clickhouse/</path>
+    <logger>
+        <level>trace</level>
+    </logger>
+
+    <tcp_port>9000</tcp_port>
+
+    <remote_servers>
+        <default>
+            <shard>shard1</shard>
+        </default>
+    </remote_servers>
+</yandex>
